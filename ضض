@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- HTML -->
+<div class="video-wrapper">
+  <!-- الفيديو كخلفية -->
+  <video class="bg-video" autoplay muted loop playsinline poster="poster.jpg">
+    <source src="abdo/Untitled design.mp4" type="video/mp4">
+    <!-- إضافة ترجمات إن رغبت -->
+   
+  </video>
+  <div class="video-fallback" aria-hidden="true"></div>
+
+  <!-- صورة احتياطية للأجهزة المحمولة (تُعرض عندما نخفي الفيديو عبر CSS) -->
+  <div class="video-fallback" aria-hidden="true"></div>
+
+  <!-- overlay لداكن/فاتح فوق الفيديو لسهولة القراءة -->
+  <div class="video-overlay" aria-hidden="true"></div>
+
+  <!-- المحتوى فوق الخلفية -->
+  <div class="content">
+    <h1>WELCOME TO ABDO STORE</h1>
+    <nav class="categories">
+  <button><a href="men.html"> About Me </a></button>
+   <nav class="categories">
+  
+  </nav>
+ 
+  </div>
+  </div>
+  <html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABDO STORE </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- الشريط العلوي -->
+  <header class="navbar">
+    <div class="logo"> <img src="images/logo ab.png" width="150px" alt=""></div>
+    <div class="search-box">
+    
+    </div>
+    
+  </header>
+
+  <!-- شريط التصنيفات -->
+  <nav class="categories"> 
+    
+
+  
+  
+  
+</nav>
+
+
+  <!-- البانر الرئيسي -->
+  <section class="hero">
+    <H1>WELCOME TO ABDO STORE </H1>
+    <h1></h1>
+    <p>Discounts up to 70% </p>
+    <button class="btn"> Shopping </button>
+  </section>
+
+  <!-- قسم المنتجات -->
+  <section class="products">
+    <h2> Cars </h2>
+    <div class="grid">
+      <div class="product">
+        
+        <img src="كك/download.jpg" width="150px" alt="فستان">
+        <h3>BMW</h3>
+        <p class="price"> Free </p>
+        <button class="buy-btn" data-name=" BMW " data-price="120">أضف إلى السل</button>
+      </div>
+
+      <div class="product">
+        <img src="abdo/download.jpg" alt="قميص">
+        <h3> mercedes c63 220 horsepower engine V8</h3>
+        <p class="price">1500000 DA </p>
+        <button class="buy-btn" data-name="قميص رجالي" data-price="95">أضف إلى السلة</button>
+      </div>
+
+      <div class="product">
+        <img src="images/MAN BETMENT/mm/download.jpg" alt="بنطال">
+        <h3>بنطال جينز</h3>
+        <p class="price">160 DA </p>
+        <button class="buy-btn" data-name="بنطال جينز" data-price="160">أضف إلى السلة</button>
+      </div>
+
+      <div class="product">
+        <img src="images/ؤؤ/download.jpg" alt="حذاء">
+        <h3>حذاء نسائي</h3>
+        <p class="price">210 DA </p>
+        <button class="buy-btn" data-name="حذاء نسائي" data-price="210">أضف إلى السلة</button>
+      </div>
+
+      <div class="product">
+        <img src="images/ؤؤ/images.jpg" alt="جاكيت">
+        <h3>جاكيت شتوي</h3>
+        <p class="price"> 100 DA </p>
+        <button class="buy-btn" data-name="جاكيت شتوي" data-price="280">أضف إلى السلة</button>
+      </div>
+
+      <div class="product">
+        <img src="كك/images.jpg" alt="نظارات">
+        <h3>نظارات شمسية</h3>
+        <p class="price"> 300 DA </p>
+        <button class="buy-btn" data-name="نظارات شمسية" data-price="150">أضف إلى السلة</button>
+      </div>
+    </div>
+  </section>
+
+
+  
+</div>
+
